@@ -9,7 +9,7 @@ This repository evaluates the ranking abilities of OpenAI's GPT models (e.g., GP
     pip install -r requirements.txt
 4.	Insert your OpenAI key on line 20 of ./model/rank.py.
 5.	Evaluate OpenAI GPT (GPT-3.5-turbo)'s ranking abilities on ml-1m / (lastfm) dataset.
-    ```bash
+   
     cd LLMSRec_Syn/
 
     To run the evaluation without any noise injection 
@@ -18,7 +18,7 @@ This repository evaluates the ranking abilities of OpenAI's GPT models (e.g., GP
 
     python run_test.py -m RankNearest -d ml-1m / (lastfm)
 
-    python run_test.py -m RankFixed -d ml-1m / (lastfm)```
+    python run_test.py -m RankFixed -d ml-1m / (lastfm)
 
 6.	To run the evaluation with noise injection 
     ```bash
