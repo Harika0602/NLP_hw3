@@ -1,7 +1,7 @@
 1.	Unzip dataset files.
 2.	cd LLMSRec_Syn/dataset/ml-1m/; unzip ml-1m.inter.zip
     
-    For data preparation details, please refer to LLMRank's [data-preparation].
+    For data preparation details, please refer to LLMRank's [data-preparation](https://github.com/RUCAIBox/LLMRank/blob/master/llmrank/dataset/data-preparation.md).
 3.	Install dependencies.
     
     pip install -r requirements.txt
