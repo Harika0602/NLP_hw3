@@ -13,6 +13,7 @@ This repository evaluates the ranking abilities of OpenAI's GPT models (e.g., GP
     cd LLMSRec_Syn/
 
     To run the evaluation without any noise injection 
+    
     ```bash
     python run_test.py -m RankAggregated -d ml-1m / (lastfm)
 
