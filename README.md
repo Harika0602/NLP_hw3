@@ -5,7 +5,6 @@ This repository evaluates the ranking abilities of OpenAI's GPT models (e.g., GP
     
     For data preparation details, please refer to LLMRank's [data-preparation](https://github.com/RUCAIBox/LLMRank/blob/master/llmrank/dataset/data-preparation.md).
 3.	Install dependencies.
-    
     ```pip install -r requirements.txt
 4.	Insert your OpenAI key on line 20 of ./model/rank.py.
 5.	Evaluate OpenAI GPT (GPT-3.5-turbo)'s ranking abilities on ml-1m / (lastfm) dataset.
