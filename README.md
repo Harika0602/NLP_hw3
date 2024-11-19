@@ -18,7 +18,7 @@ This repository evaluates the ranking abilities of OpenAI's GPT models (e.g., GP
 
     python run_test.py -m RankNearest -d ml-1m / (lastfm)
 
-    python run_test.py -m RankFixed -d ml-1m / (lastfm)
+    python run_test.py -m RankFixed -d ml-1m / (lastfm)```
 
 6.	To run the evaluation with noise injection 
     ```bash
