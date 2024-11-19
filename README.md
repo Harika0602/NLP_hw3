@@ -27,7 +27,7 @@ This repository evaluates the ranking abilities of OpenAI's GPT models (e.g., GP
     python run_test.py -m RankAggregated -d ml-1m --noise_type truncate --noise_ratio 0.3
 
     python run_test.py -m RankAggregated -d ml-1m --noise_type Duplicate --noise_ratio 0.3
-7.	We also tried for different seeds also.
+7.	We also tried for different seeds.
     ```bash
     python run_test.py -m RankNearest -d ml-1m --noise_type duplicate --noise_ratio 0.3 -sd 42
 
